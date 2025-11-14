@@ -79,14 +79,16 @@ PS C:\> .\ttstt.ps1 -logging
 ```
 Select a voice option:
 1) Microsoft David Desktop [en-US]
-2) Microsoft Zira Desktop [en-US]
-3) Microsoft Hedda [de-DE]
+2) Microsoft Hedda Desktop [de-DE]
+3) Microsoft Zira Desktop [en-US]
+Enter the number corresponding to your choice (1-n): 2
+Enter the text you want to use (with or without <p><s> ... </s></p>) (type 'exit' to quit or 'voice' to change voice): Test
 
-Enter the text you want to use:
-Hello, this is a test.
+[14.11.2025 13:11:36.695] Speaking with voice: Microsoft Hedda Desktop [de-DE]...
+[14.11.2025 13:11:39.202] Speech finished within 2.507 seconds.
 
-Speaking with voice: Microsoft Zira Desktop...
-Speech finished in 1.892 seconds.
+Enter the text you want to use (with or without <p><s> ... </s></p>) (type 'exit' to quit or 'voice' to change voice): exit
+[14.11.2025 13:11:49.135] Exiting... Goodbye!
 ```
 
 ---
