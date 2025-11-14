@@ -11,6 +11,11 @@ This tool allows you to:
 - Log execution details (if `-logging` is used)
 - Measure execution time for each speech output
 
+Intended Uses:
+- Quickly preview your SSML snippets to verify pacing/pronunciation/etc...
+- Get an idea of how long it takes until the SSML snippet is processed (overlapping with timeouts, etc...)
+- Indirectly talk to people you don't want to talk to
+
 ---
 
 ## Features
